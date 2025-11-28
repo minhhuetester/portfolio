@@ -92,12 +92,12 @@ window.addEventListener('scroll', () => {
 });
 
 // Prevent default behavior for View Project buttons (since they're placeholder links)
-document.querySelectorAll('.btn-outline').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-        e.preventDefault();
-        alert('Project details would be displayed here. You can link to actual project pages!');
-    });
-});
+// document.querySelectorAll('.btn-outline').forEach(btn => {
+//     btn.addEventListener('click', (e) => {
+//         e.preventDefault();
+//         alert('Project details would be displayed here. You can link to actual project pages!');
+//     });
+// });
 
 // Add parallax effect to hero image
 window.addEventListener('scroll', () => {

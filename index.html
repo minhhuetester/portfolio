@@ -43,11 +43,11 @@
             <span class="hero-subtitle">QC/Tester</span>
             <h2 class="hero-title">Hello, my name<br />is Minhee</h2>
             <p class="hero-description">
-              <ul> 
+            <ul> 
               <li> I have the passionate with technology and new things.</li>
-<li>With 3+ years of experience in software testing, I have worked on ensuring the quality of product and close collaboration within dev's team.</li>
-<li>I only create this portfolio to show for my team members.</li>
-</ul>
+              <li> I'm excited to get new challenges and find more great memories.</li>
+              <li> I only create this portfolio to show for my team members.</li>
+            </ul>
             </p>
             <div class="hero-buttons">
               
@@ -84,12 +84,10 @@
           <div class="link">
             <h3 class="project-title">My favorites</h3>
             <p class="project-description">
-              <h3>Find joy in the simplest moments</h3>
+              <h3>Find joy in the simples favorites...</h3>
               <ul>
-                <li>Understanding project flow and logic
-                </li><li>Making testcases
-                  <li>Executing test</li>
-                <li>Ensuring the quality of project.</li>
+                <li>Food is like magic medicine, it not only keeps me full but also helps me improve my mood on bad days.
+                  <li>If one day, you feel like life is treating you badly, I will take you out to taste some delicious foods hehe ^^</li>
               </ul>
             </p>
             <a href="./foodie.html" 
@@ -117,8 +115,8 @@
             <p class="project-description">
              <h3>This is all memories with my team:</h3>
              <ul>
-              <li>I support to make testcases</li>
-              <li>Sometimes, I execute testing some functions...</li>
+              <li>Keep your face to the sunshine and you can’t see a shadow.</li>
+              <li>Everyday with my team is the good day of my life.</li>
              </ul>
             </p>
             <a href="./tidesquare_image.html" 
@@ -148,6 +146,80 @@
     </footer>
 
     <script src="script.js"></script>
+  </body>
+   <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .comment-form {
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border-radius: 8px;
+      }
+      .comment-form textarea {
+        width:97%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #d2cece;
+        border-radius: 4px;
+        resize: vertical;
+        min-height: 100px;
+      }
+      .comment-form button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .comment-form button:hover {
+        background-color: #45a049;
+      }
+      .comments-list {
+        margin-top: 20px;
+      }
+      .comment {
+        border-bottom: 1px solid #eee;
+        padding: 15px 0;
+      }
+      .comment:last-child {
+        border-bottom: none;
+      }
+      .comment-content {
+        margin: 10px 0;
+      }
+      .comment-meta {
+        color: #666;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="comment-form">
+      <h2>Anonymous comment</h2>
+      <form id="commentForm">
+        <div>
+          <textarea
+            id="commentContent"
+            placeholder="Writre your comment content in here..."
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="comments-list" id="commentsList">
+      <h2>Comments:</h2>
+      <!-- Comments will be loaded here -->
+    </div>
+
+    <script src="./script.js"></script>
   </body>
   
 </html>
